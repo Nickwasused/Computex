@@ -1,0 +1,4 @@
+# Do not Crawl this Site or you get Blocked!
+
+User-agent: *
+Disallow: /*
