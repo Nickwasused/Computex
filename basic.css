@@ -18,7 +18,7 @@ ul {
   background-color : a803cc;
   border           : solid;
   border-width     : 20px;
-  border-color     : #fbf30a;
+  border-color     : #black;
 }
 
 li {
@@ -34,7 +34,7 @@ li a {
 }
 
 li a:hover {
-  background-color : #fbfF0a;
+  background-color : white;
 }
 
 h1 {
@@ -51,6 +51,10 @@ h1#error {
 h2 {
 	font-weight : bold;
 	font-size   : 20px;
+}
+
+p#big {
+	font-weight : bold;
 }
 
 a#big {
@@ -91,10 +95,8 @@ a{
 
 .A {
 	grid-area        : A;
-	border           : solid;
-	border-color     : #fbf30a;
 	border-width      : 10px;
-	background-color : #8b349f;
+	background-color : #black;
 }
 
 .B {
@@ -108,9 +110,9 @@ a{
 .D {
 	grid-area        : D;
 	border           : solid;
-	border-color     : #fbf30a;
+	border-color     : black;
 	border-width     : 10px;
-	background-color : #8b349f;
+	background-color : #e0e0e0;
 }
 
 .Z {
