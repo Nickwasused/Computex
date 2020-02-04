@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 html {
-	font-family      : "Roboto";
+	font-family      : "Palatino";
 	font-size        : 12px;
 	text-justify     : justify;
 	letter-spacing   : 0.6px;
 	word-spacing     : 6.5px;
 	line-height      : 15px;
-	background-color : #f8f8f8;
+	background-color : #e0e0e0;
 }
 
 ul {
@@ -81,7 +81,7 @@ img#firmlogo {
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 }
 
@@ -128,7 +128,7 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
@@ -143,7 +143,7 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
@@ -158,7 +158,7 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
@@ -173,7 +173,7 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
@@ -189,13 +189,13 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
 
 
-@media only screen and (min-width: 330px) and (max-width : 659px)
+@media only screen and (min-width: 470px) and (max-width : 659px)
 {
 	.grid {
     display               : grid;
@@ -205,13 +205,13 @@ a{
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    ". . . ."
+						    "Z . . ."
 						    "D D D D";
 	}
 }
 
 
-@media only screen and (max-width : 329px)
+@media only screen and (max-width : 469px)
 {
 	.grid {
     display               : grid;
