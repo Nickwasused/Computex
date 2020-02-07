@@ -71,11 +71,6 @@ div#center {
 	text-align  : center;
 }
 
-img#firmlogo {
-	width          : 18%;
-	padding-bottom : 5px;
-}
-
 .link {
 	text-align      : center;
 	justify-content : center;
@@ -89,7 +84,7 @@ img#firmlogo {
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
-						    "Z . . ."
+						    ". . . ."
 						    "D D D D";
 }
 
@@ -98,9 +93,9 @@ a{
 }
 
 .A {
-	grid-area        : A;
-	border-width      : 10px;
-	background-color : #black;
+	grid-area    : A;
+	border-width : 10px;
+	border-color : black;
 }
 
 .B {
@@ -290,9 +285,6 @@ a{
 		display    : none;
 	}
 	.D {
-		display    : none;
-	}
-	.Z {
 		display    : none;
 	}
 	a[href*='//']:after {
