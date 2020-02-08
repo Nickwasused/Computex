@@ -10,6 +10,10 @@ html {
 	background-color : #e0e0e0;
 }
 
+.spacer {
+	padding-bottom : 0px;
+}
+
 ul {
   list-style-type  : none;
   margin           : 0;
@@ -239,6 +243,9 @@ a{
 		font-weight     : bold;
 		font-size       : 30px;
 	}
+	.spacer {
+		padding-bottom  : 15px;
+	}
 }
 
 
@@ -261,7 +268,10 @@ a{
 	line-height      : 25px;
 	font-weight     : normal;
 	font-size       : 30px;
-}
+	}
+	.spacer {
+		padding-bottom : 20px;
+	}
 }
 
 @media print
