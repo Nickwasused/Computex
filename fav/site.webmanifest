@@ -1,6 +1,6 @@
 {
-    "name": "Computex",
-    "short_name": "Computex",
+    "name": "ComputeX",
+    "short_name": "ComputeX",
     "icons": [
         {
             "src": "/fav/android-chrome-36x36.png",
@@ -48,7 +48,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#821bdc",
+    "background_color": "#821bdc",
     "display": "standalone"
 }
