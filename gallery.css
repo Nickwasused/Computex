@@ -7,19 +7,11 @@
 	margin  : 0 10px 10px 0;
 }
 
-.thumbnails2 img {
-	width  : 30%;
-	border  : 4px solid #555;
-	padding : 1px;
-	margin  : 0 10px 10px 0;
+div#gallery {
+	text-align     : center;
 }
 
 .thumbnails img:hover {
-	border : 4px solid white;
-	cursor : pointer;
-}
-
-.thumbnails2 img:hover {
 	border : 4px solid white;
 	cursor : pointer;
 }
