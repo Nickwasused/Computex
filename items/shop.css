@@ -1,0 +1,155 @@
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 75% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+
+.G {
+	grid-area : G;
+}
+
+.I {
+	grid-area : I;
+}
+
+.J {
+	grid-area : J;
+}
+
+.K {
+	grid-area : K;
+}
+
+.H {
+	grid-area : H;
+}
+
+img#main {
+	width : 50%;
+}
+
+img#small {
+	width : 50%;
+}
+
+@media only screen and (max-width: 1400px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 75% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+@media only screen and (min-width: 1500px) and (max-width : 1573px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 63% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+@media only screen and (min-width: 1407px) and (max-width : 1499px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 57% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+@media only screen and (min-width: 1294px) and (max-width : 1406px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 52% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width : 1293px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 47% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+@media only screen and (min-width: 801px) and (max-width : 999px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 30% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width : 800px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-rows    : 25% 20%;
+    grid-template-areas   : "G G G . H"
+						    "I J K . .";
+}
+}
+
+
+@media only screen and (max-width : 600px)
+{
+.shopgrid {
+    display               : grid;
+    grid-auto-flow        : column;
+    grid-template-columns : 100%;
+    grid-template-rows    : auto;
+    grid-template-areas   : "H"
+							"G"
+							"I"
+							"J"
+							"K";
+}
+	.spacer {
+		padding-bottom : 30px;
+	}
+}
+
+@media print
+{
+	html {
+		background-color : white;
+	}
+	ul {
+		border-color     : black;
+		background-color : white;
+	}
+	a[href*='//']:after {
+        content:" (" attr(href) ") ";
+        color: $primary;
+    }
+}
