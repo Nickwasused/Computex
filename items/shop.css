@@ -1,3 +1,9 @@
+@charset "utf-8";
+
+html {
+	line-height : 20px;
+}
+
 .shopgrid {
     display               : grid;
     grid-auto-flow        : column;
@@ -41,7 +47,7 @@ img#small {
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 20% 20% 20% 7.5% 32.5%;
-    grid-template-rows    : 75% 20%;
+    grid-template-rows    : 70% 20%;
     grid-template-areas   : "G G G . H"
 						    "I J K . .";
 }
