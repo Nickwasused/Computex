@@ -19,8 +19,8 @@ ul#normal {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 10px;
-    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
-    grid-template-rows    : 50% auto;
+    grid-template-columns : 18% 18% 18% 7.5% 38.5%;
+    grid-template-rows    : 60% auto;
     grid-template-areas   : "G G G . H"
 						    "I J K . H";
 }
@@ -59,7 +59,7 @@ img#small {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 10px;
-    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-columns : 17% 17% 17% 7.5% 39.5%;
     grid-template-rows    : 63% 20%;
     grid-template-areas   : "G G G . H"
 						    "I J K . H";
@@ -72,7 +72,7 @@ img#small {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 10px;
-    grid-template-columns : 20% 20% 20% 7.5% 32.5%;
+    grid-template-columns : 16% 16% 16% 7.5% 48.5%;
     grid-template-rows    : 57% 20%;
     grid-template-areas   : "G G G . H"
 						    "I J K . H";
