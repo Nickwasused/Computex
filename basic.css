@@ -1,13 +1,11 @@
 @charset "utf-8";
 
 html {
-	font-family      : "Palatino";
-	font-size        : 12px;
+	font-family      : "Roboto";
+	font-size        : 14px;
 	text-justify     : justify;
-	letter-spacing   : 0.6px;
-	word-spacing     : 6.5px;
 	line-height      : 15px;
-	background-color : #e0e0e0;
+	background-color : #fff;
 }
 
 .spacer {
@@ -19,7 +17,7 @@ ul {
   margin           : 0;
   padding          : 0;
   overflow         : hidden;
-  background-color : a803cc;
+  background-color : #fff;
   border           : solid;
   border-width     : 20px;
   border-color     : #821bdc;
@@ -116,7 +114,7 @@ a{
 	border           : solid;
 	border-color     : #821bdc;
 	border-width     : 10px;
-	background-color : #e0e0e0;
+	background-color : #fff;
 }
 
 @media only screen and (max-width: 1400px)
