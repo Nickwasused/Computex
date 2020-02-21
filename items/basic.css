@@ -1,19 +1,7 @@
 @charset "utf-8";
-@import url('https://computexnow.com/font/Roboto-Regular.ttf')
-@import url('https://computexnow.com/font/Roboto-Black.ttf')
-@import url('https://computexnow.com/font/Roboto-BlackItalic.ttf')
-@import url('https://computexnow.com/font/Roboto-Bold.ttf')
-@import url('https://computexnow.com/font/Roboto-BoldItalic.ttf')
-@import url('https://computexnow.com/font/Roboto-Italic.ttf')
-@import url('https://computexnow.com/font/Roboto-Ligth.ttf')
-@import url('https://computexnow.com/font/Roboto-LigthItalic.ttf')
-@import url('https://computexnow.com/font/Roboto-Medium.ttf')
-@import url('https://computexnow.com/font/Roboto-MediumItalic.ttf')
-@import url('https://computexnow.com/font/Roboto-Thin.ttf')
-@import url('https://computexnow.com/font/Roboto-ThinItalic.ttf')
 
 html {
-	font-family      : "Roboto";
+	font-family      : "Arial";
 	font-size        : 14px;
 	text-justify     : justify;
 	line-height      : 15px;
