@@ -53,6 +53,12 @@ img#small {
 	width : 50%;
 }
 
+p#price {
+	font-size : 30px;
+	text-decoration : underline;
+	text-decoration-color : #821bdc;
+}
+
 @media only screen and (min-width: 1500px) and (max-width : 1573px)
 {
 .shopgrid {
