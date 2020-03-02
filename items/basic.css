@@ -23,6 +23,16 @@ html {
 	padding-bottom : 0px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #821bcd;
+}
+
+::selection {
+  color: white;
+  background: #821bcd;
+}
+
 ul {
   list-style-type  : none;
   margin           : 0;
