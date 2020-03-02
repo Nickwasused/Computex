@@ -14,9 +14,8 @@
 
 html {
 	font-family      : 'Roboto-com';
-	font-size        : 14px;
+	font-size        : 16px;
 	text-justify     : justify;
-	line-height      : 15px;
 	background-color : #fff;
 }
 
@@ -33,6 +32,16 @@ ul {
   border           : solid;
   border-width     : 20px;
   border-color     : #821bdc;
+}
+
+ul#normal {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
 
 li {
@@ -55,7 +64,7 @@ h1 {
 	text-decoration : underline;
 	text-decoration-color : #821bdc;
 	font-weight     : bold;
-	font-size       : 30px;
+	font-size       : 32px;
 }
 
 h1#error {
@@ -65,7 +74,15 @@ h1#error {
 
 h2 {
 	font-weight : bold;
+	font-size   : 24px;
+}
+
+h2#underlined {
+	font-weight : bold;
 	font-size   : 20px;
+	text-decoration : underline;
+	text-decoration-color : #821bdc;
+	padding-left    : 5px;
 }
 
 p#faderigth {
@@ -95,7 +112,7 @@ div#center {
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 15% 35% 35% 15%;
-    grid-template-rows    : 100px 10px auto 270px 100px;
+    grid-template-rows    : 100px 10px auto 100px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
@@ -164,6 +181,10 @@ a{
 		font-weight     : bold;
 		font-size       : 30px;
 	}
+	
+	p#faderigth {
+		padding-left : 50px;
+	}
 }
 
 @media only screen and (min-width: 818px) and (max-width : 927px)
@@ -185,6 +206,10 @@ a{
 		text-decoration : underline;
 		font-weight     : bold;
 		font-size       : 30px;
+	}
+	
+	p#faderigth {
+		padding-left : 5px;
 	}
 }
 
@@ -208,6 +233,10 @@ a{
 		font-weight     : bold;
 		font-size       : 30px;
 	}
+	
+	p#faderigth {
+		padding-left : 5px;
+	}
 }
 
 
@@ -230,6 +259,10 @@ a{
 		text-decoration : underline;
 		font-weight     : bold;
 		font-size       : 30px;
+	}
+	
+	p#faderigth {
+		padding-left : 5px;
 	}
 }
 
@@ -257,6 +290,10 @@ a{
 	.spacer {
 		padding-bottom  : 30px;
 	}
+	
+	p#faderigth {
+		padding-left : 5px;
+	}
 }
 
 
@@ -279,6 +316,10 @@ a{
 	}
 	.spacer {
 		padding-bottom : 30px;
+	}
+	
+	p#faderigth {
+		padding-left : 1px;
 	}
 }
 
