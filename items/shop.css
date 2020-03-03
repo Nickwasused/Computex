@@ -44,18 +44,6 @@ ul#normal {
 	grid-area : G;
 }
 
-.I {
-	grid-area : I;
-}
-
-.J {
-	grid-area : J;
-}
-
-.K {
-	grid-area : K;
-}
-
 .H {
 	grid-area : H;
 }
@@ -80,10 +68,10 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 25px;
-    grid-template-columns : 17% 17% 17% 7.5% 39.5%;
-    grid-template-rows    : auto 20%;
-    grid-template-areas   : "G G G . H"
-						    "I J K . H";
+    grid-template-columns : 45% 5% 60%;
+    grid-template-rows    : auto auto;
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 }
 
@@ -93,10 +81,10 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 25px;
-    grid-template-columns : 16% 16% 16% 7.5% 48.5%;
-    grid-template-rows    : auto 20%;
-    grid-template-areas   : "G G G . H"
-						    "I J K . H";
+    grid-template-columns : 45% 5% 60%;
+    grid-template-rows    : auto auto;
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 }
 
@@ -106,10 +94,10 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 25px;
-    grid-template-columns : 15% 15% 15% 2.5% 52.5%;
+    grid-template-columns : 45% 5% 60%;
     grid-template-rows    : auto auto;
-    grid-template-areas   : "G G G . H"
-						    "I J K . H";
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 }
 
@@ -120,13 +108,10 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 25px;
-    grid-template-columns : 100%;
-    grid-template-rows    : auto auto auto auto auto;
-    grid-template-areas   : "H"
-							"G"
-							"I"
-							"J"
-							"K";
+    grid-template-columns : 45% 5% 60%;
+    grid-template-rows    : auto auto;
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 }
 
@@ -136,13 +121,10 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 25px;
-    grid-template-columns : 100%;
-    grid-template-rows    : auto auto auto auto auto;
-    grid-template-areas   : "H"
-							"G"
-							"I"
-							"J"
-							"K";
+    grid-template-columns : 45% 5% 60%;
+    grid-template-rows    : auto auto;
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 }
 
@@ -153,12 +135,9 @@ p#price {
     grid-auto-flow        : column;
 	padding-bottom        : 10px;
     grid-template-columns : 100%;
-    grid-template-rows    : auto auto auto auto auto;
+    grid-template-rows    : auto auto;
     grid-template-areas   : "H"
-							"G"
-							"I"
-							"J"
-							"K";
+							"G";
 }
 }
 
@@ -169,12 +148,9 @@ p#price {
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 100%;
-    grid-template-rows    : auto auto auto auto auto;
+    grid-template-rows    : auto auto;
     grid-template-areas   : "H"
-							"G"
-							"I"
-							"J"
-							"K";
+							"G";
 }
 	.spacer {
 		padding-bottom : 30px;
