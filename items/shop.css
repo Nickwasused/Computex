@@ -62,6 +62,26 @@ p#price {
 	text-decoration-color : #821bdc;
 }
 
+@media print
+{
+	.shopgrid {
+		display               : grid;
+		grid-auto-flow        : column;
+		padding-bottom        : 20px;
+		grid-template-columns : 100%
+		grid-template-rows    : auto auto;
+		grid-template-areas   : "H"
+								"G";
+	}
+	
+	ul {
+		border-width          : 0px;
+	}
+	p#price {
+		text-decoration-color : black;
+	}
+}
+
 @media only screen and (min-width: 1500px) and (max-width : 1573px)
 {
 .shopgrid {

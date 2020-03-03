@@ -16,9 +16,22 @@ div#gallery {
 	cursor : pointer;
 }
 
+.preview img {
+	border: 0px solid #821bdc;
+	padding: 1px;
+	width: 50%;
+}
+
 @media print
 {
 	.thumbnails img {
-	border-color : black;
+		page-break-inside: avoid;
+		visibility : visible;
+		border     : 0px solid black;
+		width      : 100%;
+	}
+	
+	.preview img {
+		visibility : hidden;
 	}
 }

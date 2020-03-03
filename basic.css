@@ -333,6 +333,15 @@ a{
 
 @media print
 {
+	@page {
+		margin-top: 2cm;
+		margin-bottom: 2cm;
+		margin-left: 2cm;
+		margin-right: 2cm;
+	}
+	p {
+		page-break-inside: avoid;
+	}
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
@@ -342,10 +351,11 @@ a{
 	}
 	html {
 		background-color : white;
+		font-family      : "Arial";
+		font-size        : 12px;
 	}
 	ul {
-		border-color     : black;
-		background-color : white;
+		border-width     : 0px;
 	}
 	.A {
 		display    : none;
@@ -357,4 +367,11 @@ a{
         content:" (" attr(href) ") ";
         color: $primary;
     }
+	h1 {
+		text-decoration-color : black;
+	}
+	h2#underlined {
+		text-decoration-color : black;
+	}
+}
 }
