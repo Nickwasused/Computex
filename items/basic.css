@@ -65,6 +65,7 @@ h1 {
 	text-decoration-color : #821bdc;
 	font-weight     : bold;
 	font-size       : 32px;
+	line-height     : 34px;
 }
 
 h1#error {
@@ -75,6 +76,7 @@ h1#error {
 h2 {
 	font-weight : bold;
 	font-size   : 24px;
+	line-height : 26px;
 }
 
 h2#underlined {

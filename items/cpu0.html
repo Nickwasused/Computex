@@ -27,6 +27,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<link type="text/css" rel="stylesheet" href="basic.css">
 	<link type="text/css" rel="stylesheet" href="shop.css">
+	<link type="text/css" rel="stylesheet" href="gallery.css">
 </head>
 <body>
 	<div class="grid">
@@ -41,11 +42,22 @@
 		<div class="B"></div>
 		<div class="C">
 			<div class="shopgrid">
-				<div class="G"><center><img id="main" src="img/cpu0/cpu0.png"></center></div>
-				<div class="I"><center><img id="small" src="img/cpu0/cpu1.png"></center></div>
-				<div class="J"><center><img id="small" src="img/cpu0/cpu2.png"></center></div>
-				<div class="K"><center><img id="small" src="img/cpu0/cpu3.png"></center></div>
-				<div class="H"><h2>AMD Ryzen 5 3600, 6x 3.60GHz, boxed (100-100000031BOX)</h2>
+				<div class="G">
+					<div id="gallery">					
+					<div class="preview" align="center">
+						<img name="preview" src="img/cpu0/cpu0.png" alt=""/>
+					</div>
+
+						<div class="thumbnails">
+							<img onmouseover="preview.src=img1.src" name="img1" src="img/cpu0/cpu0.png" alt="" />
+							<img onmouseover="preview.src=img2.src" name="img2" src="img/cpu0/cpu1.png" alt="" />
+							<img onmouseover="preview.src=img3.src" name="img3" src="img/cpu0/cpu2.png" alt="" />
+							<img onmouseover="preview.src=img4.src" name="img4" src="img/cpu0/cpu3.png" alt="" />
+						</div>
+				</div>
+				</div>
+				<div class="H">
+				<h2>AMD Ryzen 5 3600, 6x 3.60GHz, boxed (100-100000031BOX)</h2>
 				<ul id="normal" type="square">
 					<li>Sockel	AM4 (PGA)</li><br>
 					<li>Codename	Matisse</li><br>
@@ -65,7 +77,7 @@
 			</div>
 		</div>
 		</div>
-		<div class="D"><div id=center><a href="../impressum.html" target="_blank">Impressum</a>   <a href="../data.html" target="_blank">Privacy Policy</a>   <a href="../terms.html" target="_blank">Terms of Service</a></div></div></div>
+		<div class="D"><div id=center><a href="../impressum.html" target="_blank">Impressum</a>   <a href="../data.html" target="_blank">Privacy Policy</a>   <a href="../terms.html" target="_blank">Terms of Service</a></div></div>
 </body>
 <div class="spacer"></div>
 </html>

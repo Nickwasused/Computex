@@ -27,6 +27,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<link type="text/css" rel="stylesheet" href="basic.css">
 	<link type="text/css" rel="stylesheet" href="shop.css">
+	<link type="text/css" rel="stylesheet" href="gallery.css">
 </head>
 <body>
 	<div class="grid">
@@ -41,10 +42,20 @@
 		<div class="B"></div>
 		<div class="C">
 			<div class="shopgrid">
-				<div class="G"><center><img id="main" src="img/case0/case0.png"></center></div>
-				<div class="I"><center><img id="small" src="img/case0/case1.png"></center></div>
-				<div class="J"><center><img id="small" src="img/case0/case2.png"></center></div>
-				<div class="K"><center><img id="small" src="img/case0/case3.png"></center></div>
+				<div class="G">
+					<div id="gallery">					
+					<div class="preview" align="center">
+						<img name="preview" src="img/case0/case0.png" alt=""/>
+					</div>
+
+						<div class="thumbnails">
+							<img onmouseover="preview.src=img1.src" name="img1" src="img/case0/case0.png" alt="" />
+							<img onmouseover="preview.src=img2.src" name="img2" src="img/case0/case1.png" alt="" />
+							<img onmouseover="preview.src=img3.src" name="img3" src="img/case0/case2.png" alt="" />
+							<img onmouseover="preview.src=img4.src" name="img4" src="img/case0/case3.png" alt="" />
+						</div>
+				</div>
+				</div>
 				<div class="H"><h2>be quiet! Pure Base 600 schwarz, schallged&auml;mmt (BG021)</h2>
 				<ul id="normal" type="square">
 					<li>Extern	2x 5.25"</li><br>

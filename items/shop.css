@@ -34,10 +34,10 @@ ul#normal {
     display               : grid;
     grid-auto-flow        : column;
 	padding-bottom        : 20px;
-    grid-template-columns : 17% 17% 17% 2.5% 44.5%;
+    grid-template-columns : 45% 5% 60%;
     grid-template-rows    : auto auto;
-    grid-template-areas   : "G G G . H"
-						    "I J K . H";
+    grid-template-areas   : "G . H"
+						    "G . H";
 }
 
 .G {

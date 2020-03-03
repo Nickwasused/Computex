@@ -27,6 +27,7 @@
 	<meta name="theme-color" content="#ffffff">
 	<link type="text/css" rel="stylesheet" href="basic.css">
 	<link type="text/css" rel="stylesheet" href="shop.css">
+	<link type="text/css" rel="stylesheet" href="gallery.css">
 </head>
 <body>
 	<div class="grid">
@@ -41,10 +42,20 @@
 		<div class="B"></div>
 		<div class="C">
 			<div class="shopgrid">
-				<div class="G"><center><img id="main" src="img/ram1/ram0.png"></center></div>
-				<div class="I"><center><img id="small" src="img/ram1/ram1.png"></center></div>
-				<div class="J"><center><img id="small" src="img/ram1/ram2.png"></center></div>
-				<div class="K"><center><img id="small" src="img/ram1/ram3.png"></center></div>
+				<div class="G">
+					<div id="gallery">					
+					<div class="preview" align="center">
+						<img name="preview" src="img/ram1/ram0.png" alt=""/>
+					</div>
+
+						<div class="thumbnails">
+							<img onmouseover="preview.src=img1.src" name="img1" src="img/ram1/ram0.png" alt="" />
+							<img onmouseover="preview.src=img2.src" name="img2" src="img/ram1/ram1.png" alt="" />
+							<img onmouseover="preview.src=img3.src" name="img3" src="img/ram1/ram2.png" alt="" />
+							<img onmouseover="preview.src=img4.src" name="img4" src="img/ram1/ram3.png" alt="" />
+						</div>
+				</div>
+				</div>
 				<div class="H"><h2>G.Skill Trident Z Neo DIMM Kit 32GB, DDR4-3600, CL16-19-19-39 (F4-3600C16D-32GTZNC)</h2>
 				<ul id="normal" type="square">
 					<li>Typ	DDR4 DIMM 288-Pin</li><br>
