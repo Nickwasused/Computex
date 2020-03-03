@@ -24,11 +24,9 @@ div#gallery {
 
 @media print
 {
-	.thumbnails {
-		page-break-inside: avoid;
+	.thumbnails img {
 		visibility : visible;
 		border     : 0px solid black;
-		width      : 100%;
 	}
 	
 	.preview img {
