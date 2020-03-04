@@ -21,13 +21,13 @@ html {
 }
 
 ul#normal {
-  display: block;
-  list-style-type: disc;
-  margin-top: 1em;
-  margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
+  display         : block;
+  list-style-type : disc;
+  margin-top      : 1em;
+  margin-bottom   : 1 em;
+  margin-left     : 0;
+  margin-right    : 0;
+  padding-left    : 40px;
 }
 
 .shopgrid {
@@ -41,7 +41,7 @@ ul#normal {
 }
 
 .G {
-	grid-area : G;
+	grid-area   : G;
 	padding-top : 5px;
 }
 
@@ -58,8 +58,8 @@ img#small {
 }
 
 p#price {
-	font-size : 30px;
-	text-decoration : underline;
+	font-size             : 30px;
+	text-decoration       : underline;
 	text-decoration-color : #821bdc;
 }
 
@@ -76,7 +76,7 @@ p#price {
 	}
 	
 	ul {
-		border-width          : 0px;
+		border-width : 0px;
 	}
 	p#price {
 		text-decoration-color : black;
