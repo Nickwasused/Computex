@@ -160,7 +160,7 @@ a{
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 15% 35% 35% 15%;
-    grid-template-rows    : 100px 10px auto 150px 100px;
+    grid-template-rows    : 100px 15px auto 150px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
@@ -175,7 +175,7 @@ a{
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 15% 35% 35% 15%;
-    grid-template-rows    : 100px 10px auto 100px 100px;
+    grid-template-rows    : 100px 20px auto 100px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
@@ -227,7 +227,7 @@ a{
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 15% 35% 35% 15%;
-    grid-template-rows    : 100px 10px auto 15px 100px;
+    grid-template-rows    : 100px 40px auto 15px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
@@ -254,7 +254,7 @@ a{
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 15% 35% 35% 15%;
-    grid-template-rows    : 100px 10px auto 5px 100px;
+    grid-template-rows    : 100px 40px auto 5px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
@@ -281,7 +281,7 @@ a{
     display               : grid;
     grid-auto-flow        : column;
     grid-template-columns : 5% 45% 45% 5%;
-    grid-template-rows    : 100px 10px auto 0px 100px;
+    grid-template-rows    : 100px 40px auto 0px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
 						    ". C C ."
