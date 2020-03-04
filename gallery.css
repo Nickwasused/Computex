@@ -1,14 +1,14 @@
 @charset "utf-8";
 
 .thumbnails img {
-	width  : 20%;
+	width   : 20%;
 	border  : 4px solid #821bdc;
 	padding : 1px;
 	margin  : 0 10px 10px 0;
 }
 
 div#gallery {
-	text-align     : center;
+	text-align : center;
 }
 
 .thumbnails img:hover {
@@ -17,9 +17,9 @@ div#gallery {
 }
 
 .preview img {
-	border: 0px solid #821bdc;
-	padding: 1px;
-	width: 50%;
+	border  : 0px solid #821bdc;
+	padding : 1px;
+	width   : 50%;
 }
 
 @media print
