@@ -13,7 +13,7 @@
 }
 
 html {
-	font-family      : 'Roboto-com';
+	font-family      : 'Roboto-com' !important;
 	font-size        : 16px;
 	text-justify     : justify;
 	background-color : #fff;
@@ -27,6 +27,10 @@ html {
 
 .gsc-control-cse {
 	font-family      : 'Roboto-com' !important;
+}
+
+div#___gcse_0 {
+	height : 10px !important;
 }
 
 .spacer {
