@@ -19,6 +19,15 @@ html {
 	background-color : #fff;
 }
 
+.gsc-input {
+	height : 15px !important;
+	font-family      : 'Roboto-com' !important;
+	padding-top : 0px !important;
+}
+
+.gsc-control-cse {
+	font-family      : 'Roboto-com' !important;
+}
 
 .spacer {
 	padding-bottom : 0px;
