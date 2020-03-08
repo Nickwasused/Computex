@@ -195,3 +195,34 @@ p#price {
         color: $primary;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+		html {
+		background-color : #18181b; 
+		
+	}
+	ul {
+		background-color : #18181b;
+	}
+	li {
+		color : white;
+	}
+	h1 {
+		color : white;
+	}
+	h2 {
+		color : white;
+	}
+	p {
+		color : white;
+	}
+	.D {
+		background-color : #18181b;
+	}
+	li a {
+		color : white;
+	}
+	li a:hover {
+		background-color : gray;
+	}
+}

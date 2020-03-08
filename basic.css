@@ -19,6 +19,7 @@ html {
 	background-color : #fff;
 }
 
+
 .spacer {
 	padding-bottom : 0px;
 }
@@ -330,6 +331,81 @@ a{
 		padding-left : 1px;
 	}
 }
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color : #18181b; 
+		
+	}
+	ul {
+		background-color : #18181b;
+	}
+	h1 {
+		color : white;
+	}
+	h2 {
+		color : white;
+	}
+	h3 {
+		color : white;
+	}
+	p {
+		color : white;
+	}
+	.D {
+		background-color : #18181b;
+	}
+	li {
+		color : white;
+	}
+	li a {
+		color : white;
+	}
+	li a:hover {
+		background-color : gray;
+	}
+	.gsc-control-cse {
+	background-color : #18181b !important;
+	border-color     : #18181b !important;
+	}
+
+	table.gsc-search-box {
+		background-color : #18181b !important;
+	}
+
+	.gsc-webResult.gsc-result {
+		background-color : #18181b !important;
+	}
+
+	.gsc-webResult.gsc-result {
+		border : 1px solid #b21bdc !important;
+	}
+
+	.gsc-tabHeader.gsc-tabhActive {
+		background-color : #18181b !important;
+	}
+
+	.gsc-tabHeader.gsc-tabhInactive {
+		background-color : #18181b !important;
+	}
+
+	.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
+		color: white !important;
+	}
+
+	.gs-webResult.gs-result a.gs-title:link {
+		color: white !important;
+	}
+
+	.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
+		color: white !important;
+	}
+
+	.gsc-results-wrapper-overlay {
+		background: #18181b !important;
+	}
+}
+
 
 @media print
 {
