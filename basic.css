@@ -93,7 +93,7 @@ li a:hover {
 
 h1 {
 	text-decoration       : underline;
-	text-decoration-color : #821bdc;
+	text-decoration-color : #821bdc !important;
 	font-weight           : bold;
 	font-size             : 32px;
 	line-height           : 34px;
@@ -204,7 +204,6 @@ a{
 						    "D D D D";
 	}
 	h1 {
-		text-decoration : none;
 		line-height     : 30px;
 		text-decoration : underline;
 		font-weight     : bold;
@@ -230,7 +229,6 @@ a{
 						    "D D D D";
 	}
 	h1 {
-		text-decoration : none;
 		line-height     : 30px;
 		text-decoration : underline;
 		font-weight     : bold;
@@ -256,7 +254,6 @@ a{
 						    "D D D D";
 	}
 	h1 {
-		text-decoration : none;
 		line-height     : 30px;
 		text-decoration : underline;
 		font-weight     : bold;
@@ -283,7 +280,6 @@ a{
 						    "D D D D";
 	}
 	h1 {
-		text-decoration : none;
 		line-height     : 30px;
 		text-decoration : underline;
 		font-weight     : bold;
@@ -310,7 +306,6 @@ a{
 						    "D D D D";
 	}
 	h1 {
-		text-decoration : none;
 		line-height     : 30px;
 		text-decoration : underline;
 		font-weight     : bold;
@@ -338,8 +333,7 @@ a{
 							"D";
 	}
 	h1 {
-	text-decoration : none;
-	line-height     : 25px;
+	line-height     : 30px;
 	font-weight     : normal;
 	font-size       : 30px;
 	}
