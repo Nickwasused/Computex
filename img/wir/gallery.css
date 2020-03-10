@@ -12,15 +12,13 @@ div#gallery {
 }
 
 .thumbnails img:hover {
-	border : 4px solid white;
+	border : 4px solid black;
 	cursor : pointer;
 }
 
 .preview img {
 	border      : 4px solid #821bdc;
-	padding     : 1px;
 	width       : 50%;
-	padding-top : 10px;
 }
 
 @media print
