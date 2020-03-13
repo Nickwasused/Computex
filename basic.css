@@ -12,6 +12,9 @@
     font-style: normal;
 }
 
+
+
+
 html {
 	font-family      : 'Roboto-com' !important;
 	font-size        : 16px;
@@ -24,6 +27,10 @@ html {
 }
 .darktwitter {
 	display : none;
+}
+
+.desktoponly {
+	visibility : hidden;
 }
 
 .gsc-input {
@@ -61,7 +68,7 @@ ul {
   overflow         : hidden;
   background-color : #fff;
   border           : solid;
-  border-width     : 20px;
+  border-width     : 15px;
   border-color     : #821bdc;
 }
 
@@ -174,6 +181,38 @@ a{
 	border-width     : 10px;
 	background-color : #fff;
 }
+
+@media only screen and (min-width: 1081px)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background: rgba(255, 255, 255, 0.5)
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: ligth)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background: rgba(255, 255, 255, 0.5)
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background: rgba(24, 24, 27, 0.7)
+	}
+}
+
+
 
 @media only screen and (max-width: 1400px)
 {
@@ -383,6 +422,9 @@ a{
 	}
 	p {
 		color : white;
+	}
+	a {
+		color : #821bdc;
 	}
 	.D {
 		background-color : #18181b;
