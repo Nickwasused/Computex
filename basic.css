@@ -129,6 +129,12 @@ p#big {
 	font-weight : bold;
 }
 
+.underlined {
+	text-decoration       : underline;
+	text-decoration-color : #821bdc;
+	font-size : 17px;
+}
+
 a#big {
 	font-weight : bold;
 	font-size   : 20px;
@@ -412,16 +418,16 @@ a{
 		background-color : #18181b;
 	}
 	h1 {
-		color : white;
+		color : #B6B6B6;
 	}
 	h2 {
-		color : white;
+		color : #B6B6B6;
 	}
 	h3 {
-		color : white;
+		color : #B6B6B6;
 	}
 	p {
-		color : white;
+		color : #B6B6B6;
 	}
 	a {
 		color : #821bdc;
