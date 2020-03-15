@@ -145,9 +145,9 @@ https://computexnow.com/items/img/case0/case1.webp
 https://computexnow.com/items/img/case0/case2.webp
 https://computexnow.com/items/img/case0/case3.webp
 https://computexnow.com/items/img/case1/case0.webp
-https://computexnow.com/items/img/case2/case1.webp
-https://computexnow.com/items/img/case3/case2.webp
-https://computexnow.com/items/img/case4/case3.webp
+https://computexnow.com/items/img/case1/case1.webp
+https://computexnow.com/items/img/case1/case2.webp
+https://computexnow.com/items/img/case1/case3.webp
 https://computexnow.com/items/img/cpu0/cpu0.webp
 https://computexnow.com/items/img/cpu0/cpu1.webp
 https://computexnow.com/items/img/cpu0/cpu2.webp
@@ -196,10 +196,10 @@ https://computexnow.com/items/img/lap2/lap0.webp
 https://computexnow.com/items/img/lap2/lap1.webp
 https://computexnow.com/items/img/lap2/lap2.webp
 https://computexnow.com/items/img/lap2/lap3.webp
-https://computexnow.com/items/img/ram0/ram0.webp
-https://computexnow.com/items/img/ram0/ram1.webp
-https://computexnow.com/items/img/ram0/ram2.webp
-https://computexnow.com/items/img/ram0/ram3.webp
+https://computexnow.com/items/img/ram2/ram0.webp
+https://computexnow.com/items/img/ram2/ram1.webp
+https://computexnow.com/items/img/ram2/ram2.webp
+https://computexnow.com/items/img/ram2/ram3.webp
 https://computexnow.com/items/img/ram1/ram0.webp
 https://computexnow.com/items/img/ram1/ram1.webp
 https://computexnow.com/items/img/ram1/ram2.webp
