@@ -14,3 +14,6 @@ A Project
 ![preview4](/github/preview4.JPG)
 ![preview5](/github/preview5.JPG)
 ![preview6](/github/preview6.JPG)
+
+# Shop Page Preview
+![previewvid1](/github/preview.webm)
