@@ -75,11 +75,12 @@ ul {
 ul#normal {
   display         : block;
   list-style-type : disc;
+  overflow : auto;
   margin-top      : 1em;
   margin-bottom   : 1 em;
   margin-left     : 0;
   margin-right    : 0;
-  padding-left    : 40px;
+  padding-left    : 0px;
 }
 
 li {
@@ -156,10 +157,10 @@ div#center {
     grid-template-columns : 15% 35% 35% 15%;
     grid-template-rows    : 100px 10px auto 100px 100px;
     grid-template-areas   : "A A A A"
-						    "B B B B"
-						    ". C C ."
-						    ". . . ."
-						    "D D D D";
+											  "B B B B"
+											  ".  C C ."
+						                      ". . . ."
+						                      "D D D D";
 }
 
 a{
