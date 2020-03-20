@@ -12,9 +12,6 @@
     font-style: normal;
 }
 
-
-
-
 html {
 	font-family      : 'Roboto-com' !important;
 	font-size        : 16px;
@@ -34,13 +31,13 @@ html {
 }
 
 .gsc-input {
-	height : 15px !important;
-	font-family      : 'Roboto-com' !important;
+	height      : 15px !important;
+	font-family : 'Roboto-com' !important;
 	padding-top : 0px !important;
 }
 
 .gsc-control-cse {
-	font-family      : 'Roboto-com' !important;
+	font-family : 'Roboto-com' !important;
 }
 
 div#___gcse_0 {
@@ -75,12 +72,11 @@ ul {
 ul#normal {
   display         : block;
   list-style-type : disc;
-  overflow : auto;
   margin-top      : 1em;
   margin-bottom   : 1 em;
   margin-left     : 0;
   margin-right    : 0;
-  padding-left    : 0px;
+  padding-left    : 20px;
 }
 
 li {
@@ -133,7 +129,7 @@ p#big {
 .underlined {
 	text-decoration       : underline;
 	text-decoration-color : #821bdc;
-	font-size : 17px;
+	font-size             : 17px;
 }
 
 a#big {
@@ -195,7 +191,7 @@ a{
 		visibility : visible;
 	}
 	.C {
-		background: rgba(255, 255, 255, 0.5);
+		background : rgba(255, 255, 255, 0.5);
 	}
 }
 
@@ -205,7 +201,7 @@ a{
 		visibility : visible;
 	}
 	.C {
-		background: rgba(255, 255, 255, 0.5);
+		background : rgba(255, 255, 255, 0.5);
 	}
 }
 
@@ -215,7 +211,7 @@ a{
 		visibility : visible;
 	}
 	.C {
-		background: rgba(24, 24, 27, 0.7);
+		background : rgba(24, 24, 27, 0.7);
 	}
 }
 
@@ -225,7 +221,7 @@ a{
 		visibility : hidden !important;
 	}
 	.C {
-		background-color: white !important;
+		background-color : white !important;
 	}
 }
 
@@ -235,7 +231,7 @@ a{
 		visibility : hidden !important;
 	}
 	.C {
-		background-color:  #18181b !important;
+		background-color : #18181b !important;
 	}
 }
 
@@ -245,7 +241,7 @@ a{
 		visibility : hidden !important;
 	}
 	.C {
-		background-color:  white !important;
+		background-color : white !important;
 	}
 }
 
@@ -507,19 +503,19 @@ a{
 	}
 
 	.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
-		color: white !important;
+		color : white !important;
 	}
 
 	.gs-webResult.gs-result a.gs-title:link {
-		color: white !important;
+		color : white !important;
 	}
 
 	.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
-		color: white !important;
+		color : white !important;
 	}
 
 	.gsc-results-wrapper-overlay {
-		background: #18181b !important;
+		background : #18181b !important;
 	}
 }
 
