@@ -58,7 +58,7 @@ def updateprice(urlin, filenamein):
 
     temp = '{}'.format(filedata2)
     if newtag == 'None':
-        break
+        return
 
     with open(filename, 'w') as g:
         g.write(temp)
