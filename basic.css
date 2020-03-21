@@ -81,7 +81,7 @@ ul {
 ul#normal {
   display         : block;
   list-style-type : disc;
-  margin-top      : 1em;
+  margin-top      : 1 em;
   margin-bottom   : 1 em;
   margin-left     : 0;
   margin-right    : 0;
@@ -98,6 +98,16 @@ li a {
   text-align      : center;
   padding         : 14px 16px;
   text-decoration : none;
+}
+
+li a#embed {
+  display         : inline;
+  text-align      : justify;
+  padding         : 0px 0px;
+}
+
+li a:hover#embed {
+  background-color : white;
 }
 
 li a:hover {
@@ -170,6 +180,11 @@ div#center {
 
 a{
 	text-color : black;
+}
+
+a#embed {
+	text-decoration       : underline;
+	text-decoration-color : var(--main-color) !important;
 }
 
 .A {
@@ -475,6 +490,9 @@ a{
 	}
 	li a:hover {
 		background-color : gray;
+	}
+	li a:hover#embed {
+		background-color : var(--maindark-color);
 	}
 	.ligthtwitter {
 		display : none !important;
