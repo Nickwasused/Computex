@@ -50,7 +50,7 @@ img#small {
 p#price {
 	font-size             : 30px;
 	text-decoration       : underline;
-	text-decoration-color : #821bdc;
+	text-decoration-color : var(--main-color);
 }
 
 @media print
@@ -188,11 +188,11 @@ p#price {
 
 @media (prefers-color-scheme: dark) {
 		html {
-		background-color : #18181b; 
+		background-color : var(--maindark-color); 
 		
 	}
 	ul {
-		background-color : #18181b;
+		background-color : var(--maindark-color);
 	}
 	li {
 		color : white;
@@ -207,7 +207,7 @@ p#price {
 		color : white;
 	}
 	.D {
-		background-color : #18181b;
+		background-color : var(--maindark-color);
 	}
 	li a {
 		color : white;

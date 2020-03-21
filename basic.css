@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* Custom Roboto Font */
 @font-face {
     font-family: 'Roboto-com';
     src: url('webfonts/Roboto-Regular-webfont.eot');
@@ -10,6 +11,14 @@
          url('webfonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Color Controls */
+:root {
+    --main-color          : #821bdc;
+	--maindark-color      : #18181b;
+	--secondarydark-color : #B6B6B6;
+	--selection-color     : #821bcd;
 }
 
 html {
@@ -50,12 +59,12 @@ div#___gcse_0 {
 
 ::-moz-selection { /* Code for Firefox */
   color      : white;
-  background : #821bcd;
+  background : var(--selection-color);
 }
 
 ::selection {
   color      : white;
-  background : #821bcd;
+  background : var(--selection-color);
 }
 
 ul {
@@ -66,7 +75,7 @@ ul {
   background-color : #fff;
   border           : solid;
   border-width     : 15px;
-  border-color     : #821bdc;
+  border-color     : var(--main-color);
 }
 
 ul#normal {
@@ -97,7 +106,7 @@ li a:hover {
 
 h1 {
 	text-decoration       : underline;
-	text-decoration-color : #821bdc !important;
+	text-decoration-color : var(--main-color) !important;
 	font-weight           : bold;
 	font-size             : 32px;
 	line-height           : 34px;
@@ -118,7 +127,7 @@ h2#underlined {
 	font-weight           : bold;
 	font-size             : 20px;
 	text-decoration       : underline;
-	text-decoration-color : #821bdc;
+	text-decoration-color : var(--main-color);
 	padding-left          : 5px;
 }
 
@@ -128,7 +137,7 @@ p#big {
 
 .underlined {
 	text-decoration       : underline;
-	text-decoration-color : #821bdc;
+	text-decoration-color : var(--main-color);
 	font-size             : 17px;
 }
 
@@ -180,7 +189,7 @@ a{
 .D {
 	grid-area        : D;
 	border           : solid;
-	border-color     : #821bdc;
+	border-color     : var(--main-color);
 	border-width     : 10px;
 	background-color : #fff;
 }
@@ -205,7 +214,7 @@ a{
 	}
 }
 
-@media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark) and (prefers-reduced-motion: false)
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark)
 {
 	.desktoponly {
 		visibility : visible;
@@ -438,29 +447,25 @@ a{
 
 @media (prefers-color-scheme: dark) {
 	html {
-		background-color : #18181b; 
+		background-color : var(--maindark-color); 
 		
 	}
 	ul {
-		background-color : #18181b;
+		background-color : var(--maindark-color);
 	}
 	h1 {
-		color : #B6B6B6;
-	}
+		color : var(--secondarydark-color);	}
 	h2 {
-		color : #B6B6B6;
-	}
+		color : var(--secondarydark-color);	}
 	h3 {
-		color : #B6B6B6;
-	}
+		color : var(--secondarydark-color);	}
 	p {
-		color : #B6B6B6;
-	}
+		color : var(--secondarydark-color);	}
 	a {
-		color : #821bdc;
+		color : var(--main-color);
 	}
 	.D {
-		background-color : #18181b;
+		background-color : var(--maindark-color);
 	}
 	li {
 		color : white;
@@ -478,16 +483,16 @@ a{
 		display : contents !important;
 	}
 	.gsc-control-cse {
-		background-color : #18181b !important;
-		border-color     : #18181b !important;
+		background-color : var(--maindark-color) !important;
+		border-color     : var(--maindark-color) !important;
 	}
 
 	table.gsc-search-box {
-		background-color : #18181b !important;
+		background-color : var(--maindark-color) !important;
 	}
 
 	.gsc-webResult.gsc-result {
-		background-color : #18181b !important;
+		background-color : var(--maindark-color) !important;
 	}
 
 	.gsc-webResult.gsc-result {
@@ -495,11 +500,11 @@ a{
 	}
 
 	.gsc-tabHeader.gsc-tabhActive {
-		background-color : #18181b !important;
+		background-color : var(--maindark-color) !important;
 	}
 
 	.gsc-tabHeader.gsc-tabhInactive {
-		background-color : #18181b !important;
+		background-color : var(--maindark-color) !important;
 	}
 
 	.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
@@ -515,7 +520,7 @@ a{
 	}
 
 	.gsc-results-wrapper-overlay {
-		background : #18181b !important;
+		background : var(--maindark-color) !important;
 	}
 }
 
