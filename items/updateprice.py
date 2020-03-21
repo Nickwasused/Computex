@@ -1,4 +1,5 @@
 import requests
+import time
 from bs4 import BeautifulSoup
 
 urlin1 = "https://geizhals.de/be-quiet-pure-base-600-schwarz-bg021-a1559571.html"
