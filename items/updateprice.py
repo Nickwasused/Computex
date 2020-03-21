@@ -42,6 +42,10 @@ def updateprice(urlin, filenamein):
     soup = BeautifulSoup(response.text, "html.parser")
     gg = soup.find('span', {'class' : 'gh_price'})
     gg = '{}'.format(gg)
+    if 'None' in gg:
+        return
+    else:
+        pass
     price = gg.replace('€', '&euro;')
     price = price.replace('<span class="gh_price">', '')
     price = price.replace('</span>', '')
@@ -53,20 +57,19 @@ def updateprice(urlin, filenamein):
         tag = '{}'.format(tag)
         tag = tag.replace('€', '&euro;')
         newtag = '<p id="price">Preis: {}</p>'.format(price)
+
         filedata = rr
         filedata2 = rr.replace(tag, newtag)
         f.close()
 
     temp = '{}'.format(filedata2)
-    if newtag == 'None':
-        return
 
     with open(filename, 'w') as g:
         g.write(temp)
         g.close
+    time.sleep(60)
 
-    time.sleep(5)
-            
+
 updateprice(urlin1, filenamein1)
 updateprice(urlin2, filenamein2)
 updateprice(urlin3, filenamein3)
