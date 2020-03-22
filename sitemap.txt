@@ -8,6 +8,7 @@ https://computexnow.com/sitemap.html
 https://computexnow.com/shop.html
 https://computexnow.com/twitter.html
 https://computexnow.com/LICENSE
+https://computexnow.com/dienstleistungen.html
 https://computexnow.com/terms.html
 https://computexnow.com/img/case0.webp
 https://computexnow.com/img/case1.webp
@@ -69,7 +70,7 @@ https://computexnow.com/basic.css
 https://computexnow.com/gallery.css
 https://computexnow.com/gallerywir.css
 https://computexnow.com/webfonts/Apache License.txt
-https://computexnow.com/webfontsRoboto-Regular-webfont.eot
+https://computexnow.com/webfonts/Roboto-Regular-webfont.eot
 https://computexnow.com/webfonts/Roboto-Regular-webfont.otf
 https://computexnow.com/webfonts/Roboto-Regular-webfont.svg
 https://computexnow.com/webfonts/Roboto-Regular-webfont.ttf
