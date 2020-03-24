@@ -1,14 +1,14 @@
 @charset "utf-8";
 
-.thumbnailsshop img {
-	width   : 15vw;
+.thumbnails img {
+	width   : 20%;
 	border  : 4px solid #821bdc;
 	padding : 1px;
 	margin  : 0 10px 10px 0;
 }
 
-.thumbnails img {
-	width   : 6vw;
+.thumbnails video {
+	width   : 40%;
 	border  : 4px solid #821bdc;
 	padding : 1px;
 	margin  : 0 10px 10px 0;
@@ -26,7 +26,7 @@ div#gallery {
 .preview img {
 	border  : 0px solid #821bdc;
 	padding : 1px;
-	width   : 20vw;
+	width   : 50%;
 }
 
 @media print
@@ -46,8 +46,8 @@ div#gallery {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 100vw;
-    min-height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
     width: auto;
     height: auto;
     z-index: -100;
