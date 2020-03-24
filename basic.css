@@ -170,7 +170,7 @@ div#center {
 .grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 10px auto 100px 100px;
     grid-template-areas   : "A A A A"
 											  "B B B B"
@@ -192,6 +192,7 @@ a#embed {
 	grid-area    : A;
 	border-width : 10px;
 	border-color : black;
+	align        : center;
 }
 
 .B {
@@ -277,7 +278,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 15px auto 150px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -292,7 +293,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 20px auto 100px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -317,7 +318,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 10px auto 50px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -342,7 +343,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 40px auto 15px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -368,7 +369,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 15% 35% 35% 15%;
+    grid-template-columns : 14vw 35vw 35vw 14vw;
     grid-template-rows    : 100px 40px auto 5px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -394,7 +395,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 5% 45% 45% 5%;
+    grid-template-columns : 4vw 45vw 45vw 4vw;
     grid-template-rows    : 100px 40px auto 0px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -423,7 +424,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 100%;
+    grid-template-columns : 97vw;
     grid-template-rows    : auto auto auto;
     grid-template-areas   : "A"
 							"C"
@@ -558,7 +559,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 100%;
+    grid-template-columns : 100vw;
     grid-template-rows    : auto;
     grid-template-areas   : "C";
 	}
