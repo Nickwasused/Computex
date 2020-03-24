@@ -170,7 +170,7 @@ div#center {
 .grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 10px auto 100px 100px;
     grid-template-areas   : "A A A A"
 											  "B B B B"
@@ -278,7 +278,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 15px auto 150px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -293,7 +293,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 20px auto 100px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -318,7 +318,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 10px auto 50px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -343,7 +343,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 40px auto 15px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -369,7 +369,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 14vw 35vw 35vw 14vw;
+    grid-template-columns : 14vw 33vw 33vw 14vw;
     grid-template-rows    : 100px 40px auto 5px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -395,7 +395,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 4vw 45vw 45vw 4vw;
+    grid-template-columns : 4vw 43vw 43vw 4vw;
     grid-template-rows    : 100px 40px auto 0px 100px;
     grid-template-areas   : "A A A A"
 						    "B B B B"
@@ -424,7 +424,7 @@ a#embed {
 	.grid {
     display               : grid;
     grid-auto-flow        : column;
-    grid-template-columns : 97vw;
+    grid-template-columns : 90vw;
     grid-template-rows    : auto auto auto;
     grid-template-areas   : "A"
 							"C"
