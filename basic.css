@@ -29,6 +29,12 @@ html {
 	background-color : #fff;
 }
 
+.alert {
+	text-decoration       : underline;
+	text-decoration-color : red !important;
+	font-size             : 20px;
+}
+
 .ligthtwitter {
 	display : contents;
 }
@@ -477,6 +483,9 @@ a#embed {
 		color : var(--secondarydark-color);	}
 	p {
 		color : var(--secondarydark-color);	}
+	.alert {
+		color : white;
+	}
 	a {
 		color : var(--main-color);
 	}
