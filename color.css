@@ -27,11 +27,13 @@ div#___gcse_0 {
 
 ::-moz-selection { /* Code for Firefox */
   color      : white !important;
+  background : #821bdc;
   background : var(--selection-color) !important;
 }
 
 ::selection {
   color      : white !important;
+  background : #821bdc;
   background : var(--selection-color) !important;
 }
 
@@ -115,27 +117,39 @@ div#___gcse_0 {
 
 @media (prefers-color-scheme: dark) {
 	html {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important; 
 		
 	}
 	ul {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 	h1 {
-		color : var(--secondarydark-color) !important;	}
+		color : #B6B6B6 !important;
+		color : var(--secondarydark-color) !important;
+	}
 	h2 {
-		color : var(--secondarydark-color) !important;	}
+		color : #B6B6B6 !important;
+		color : var(--secondarydark-color) !important;
+	}
 	h3 {
-		color : var(--secondarydark-color) !important;	}
+		color : #B6B6B6 !important;
+		color : var(--secondarydark-color) !important;
+	}
 	p {
-		color : var(--secondarydark-color) !important;	}
+		color : #B6B6B6 !important;
+		color : var(--secondarydark-color) !important;
+	}
 	.alert {
 		color : white !important;
 	}
 	a {
+		color : #821bdc !important;
 		color : var(--main-color) !important;
 	}
 	.E {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 	li {
@@ -148,6 +162,7 @@ div#___gcse_0 {
 		background-color : gray !important;
 	}
 	li a:hover#embed {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 	.ligthtwitter {
@@ -157,15 +172,19 @@ div#___gcse_0 {
 		display : contents !important;
 	}
 	.gsc-control-cse {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
+		border-color     : #18181b !important;
 		border-color     : var(--maindark-color) !important;
 	}
 
 	table.gsc-search-box {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 
 	.gsc-webResult.gsc-result {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 
@@ -174,10 +193,12 @@ div#___gcse_0 {
 	}
 
 	.gsc-tabHeader.gsc-tabhActive {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 
 	.gsc-tabHeader.gsc-tabhInactive {
+		background-color : #18181b !important;
 		background-color : var(--maindark-color) !important;
 	}
 
@@ -194,6 +215,7 @@ div#___gcse_0 {
 	}
 
 	.gsc-results-wrapper-overlay {
+		background : #18181b !important;
 		background : var(--maindark-color) !important;
 	}
 }
@@ -202,50 +224,43 @@ div#___gcse_0 {
 @media print
 {
 	@page {
-		margin-top    : 2cm;
-		margin-bottom : 2cm;
-		margin-left   : 2cm;
-		margin-right  : 2cm;
+		margin-top    : 2cm !important;
+		margin-bottom : 2cm !important;
+		margin-left   : 2cm !important;
+		margin-right  : 2cm !important;
 	}
 	p {
-		page-break-inside: avoid;
-	}
-	.grid {
-    display               : grid;
-    grid-auto-flow        : column;
-    grid-template-columns : 100%;
-    grid-template-rows    : auto;
-    grid-template-areas   : "C";
+		page-break-inside: avoid !important;
 	}
 	html {
-		background-color : white;
-		font-family      : "Arial";
-		font-size        : 12px;
+		background-color : white !important;
+		font-family      : "Arial" !important;
+		font-size        : 12px !important;
 	}
 	ul {
-		border-width : 0px;
+		border-width : 0px !important;
 	}
 	.A {
-		display : none;
+		display : none !important;
 	}
 	.E {
-		display : none;
+		display : none !important;
 	}
 	a[href*='//']:after {
         content:" (" attr(href) ") ";
         color: $primary;
     }
 	h1 {
-		text-decoration-color : black;
+		text-decoration-color : black !important;
 	}
 	h2#underlined {
-		text-decoration-color : black;
+		text-decoration-color : black !important;
 	}
 	.gcse-search {
-		visibility : hidden;
+		visibility : hidden !important;
 	}
 	.hideprint {
-		visibility : hidden;
+		visibility : hidden !important;
 	}
 }
 }
