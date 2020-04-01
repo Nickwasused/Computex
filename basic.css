@@ -28,11 +28,11 @@ html {
 	font-size        : 16px;
 	text-justify     : justify;
 	background-color : #fff;
-	overflow: -moz-scrollbars-none;
 }
 
 body {
 	 overflow-x : hidden;
+	 overflow-x : -moz-scrollbars-none;
 }
 
 .alert {
@@ -66,6 +66,10 @@ li {
   float : left;
 }
 
+ul#normal li {
+	float : none !important;
+}
+
 li a {
   display         : block;
   color           : black;
@@ -77,7 +81,7 @@ li a {
 li a#embed {
   display         : inline;
   text-align      : justify;
-  padding         : 0px 0px;
+  padding         : 0px 0px !important;
 }
 
 li a:hover#embed {
@@ -142,6 +146,7 @@ div#center {
 
 .grid {
     display: flex;
+	display        : -webkit-flex;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -157,6 +162,7 @@ a#embed {
 
 .A {
 	display        : flex;
+	display        : -webkit-flex;
     flex-direction : column;
 	border-width   : 10px;
 	border-color   : black;
@@ -165,12 +171,14 @@ a#embed {
 
 .B {
   display        : flex;
+  display        : -webkit-flex;
   flex-direction : column;
   height         : 5vh;
 }
 
 .C {
   display         : flex;
+  display        : -webkit-flex;
   flex-direction  : column;
   justify-content : center;
   padding-left    : 5vw;
@@ -179,12 +187,14 @@ a#embed {
 
 .D {
   display        : flex;
+  display        : -webkit-flex;
   flex-direction : column;
   height         : 5vh;
 }
 
 .E {
 	display          : flex;
+	display        : -webkit-flex;
     flex-direction   : column;
 	border           : solid;
 	border-color     : var(--main-color);
