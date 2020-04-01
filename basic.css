@@ -28,6 +28,11 @@ html {
 	font-size        : 16px;
 	text-justify     : justify;
 	background-color : #fff;
+	overflow: -moz-scrollbars-none;
+}
+
+body {
+	 overflow-x : hidden;
 }
 
 .alert {
