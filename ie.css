@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/* IE Patch */
+/* Source: https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet */
+/* IE 10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	::-moz-selection {
+		background : #821bdc !important;
+	}
+	::selection {
+		background : #821bdc !important;
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		html {
+			background-color : #18181b !important;
+		}
+		ul {
+			background-color : #18181b !important;
+		}
+		h1 {
+			color : #B6B6B6 !important;
+		}
+		h2 {
+			color : #B6B6B6 !important;
+		}
+		h3 {
+			color : #B6B6B6 !important;
+		}
+		.alert {
+			color : white !important;
+		}
+		a {
+			color : #821bdc !important;
+		}
+		.E {
+			background-color : #18181b !important;
+		}
+
+		li a:hover#embed {
+			background-color : #18181b !important;
+		}
+
+		.gsc-control-cse {
+			background-color : #18181b !important;
+			border-color     : #18181b !important;
+		}
+
+		table.gsc-search-box {
+			background-color : #18181b !important;
+		}
+
+		.gsc-webResult.gsc-result {
+			background-color : #18181b !important;
+		}
+
+
+		.gsc-tabHeader.gsc-tabhActive {
+			background-color : #18181b !important;
+		}
+
+		.gsc-tabHeader.gsc-tabhInactive {
+			background-color : #18181b !important;
+		}
+		.gsc-results-wrapper-overlay {
+			background : #18181b !important;
+		}
+	}
+		/* hide video for IE because its buggy */
+	.desktoponly {
+			visibility : hidden !important;
+	}
+	ul {
+	  border-color     : #821bdc !important;
+	}
+
+	h1 {
+		text-decoration-color : #821bdc !important;
+	}
+
+	h2#underlined {
+		text-decoration-color : #821bdc !important;
+	}
+
+
+	.underlined {
+		text-decoration-color : #821bdc !important;
+	}
+
+	a#embed {
+		text-decoration-color : #821bdc !important;
+	}
+
+	.E {
+		border-color     : #821bdc !important;
+	}
+}
+
+/* Microsoft Edge 12 */
+@supports (-ms-accelerator:true) {
+	::-moz-selection {
+		background : #821bdc !important;
+	}
+	::selection {
+		background : #821bdc !important;
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		html {
+			background-color : #18181b !important;
+		}
+		ul {
+			background-color : #18181b !important;
+		}
+		h1 {
+			color : #B6B6B6 !important;
+		}
+		h2 {
+			color : #B6B6B6 !important;
+		}
+		h3 {
+			color : #B6B6B6 !important;
+		}
+		.alert {
+			color : white !important;
+		}
+		a {
+			color : #821bdc !important;
+		}
+		.E {
+			background-color : #18181b !important;
+		}
+
+		li a:hover#embed {
+			background-color : #18181b !important;
+		}
+
+		.gsc-control-cse {
+			background-color : #18181b !important;
+			border-color     : #18181b !important;
+		}
+
+		table.gsc-search-box {
+			background-color : #18181b !important;
+		}
+
+		.gsc-webResult.gsc-result {
+			background-color : #18181b !important;
+		}
+
+
+		.gsc-tabHeader.gsc-tabhActive {
+			background-color : #18181b !important;
+		}
+
+		.gsc-tabHeader.gsc-tabhInactive {
+			background-color : #18181b !important;
+		}
+		.gsc-results-wrapper-overlay {
+			background : #18181b !important;
+		}
+	}
+	ul {
+	  border-color     : #821bdc !important;
+	}
+
+	h1 {
+		text-decoration-color : #821bdc !important;
+	}
+
+	h2#underlined {
+		text-decoration-color : #821bdc !important;
+	}
+
+
+	.underlined {
+		text-decoration-color : #821bdc !important;
+	}
+
+	a#embed {
+		text-decoration-color : #821bdc !important;
+	}
+
+	.E {
+		border-color     : #821bdc !important;
+	}
+}
