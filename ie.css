@@ -66,10 +66,6 @@
 			background : #18181b !important;
 		}
 	}
-		/* hide video for IE because its buggy */
-	.desktoponly {
-			visibility : hidden !important;
-	}
 	ul {
 	  border-color     : #821bdc !important;
 	}

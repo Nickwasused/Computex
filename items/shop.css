@@ -21,22 +21,39 @@ html {
 }
 
 .shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 20px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
+	padding-bottom  : 20px;
+    display         : flex;
+	display         : -webkit-flex;
+	flex-direction  : row;
+	justify-content : center;
 }
 
 .G {
-	grid-area   : G;
+	display        : flex;
+	display        : -webkit-flex;
+    flex-direction : column;
+	border-width   : 10px;
+	border-color   : black;
+	width          : 40vw;
 	padding-top : 5px;
 }
 
 .H {
-	grid-area : H;
+	display        : flex;
+	display        : -webkit-flex;
+    flex-direction : column;
+	border-width   : 10px;
+	border-color   : black;
+}
+
+@media only screen and (max-width : 1350px)
+{
+.shopgrid {
+	flex-direction  : column;
+}
+.G {
+	width          : 90vw;
+}
 }
 
 img#main {
@@ -51,124 +68,6 @@ p#price {
 	font-size             : 30px;
 	text-decoration       : underline;
 	text-decoration-color : var(--main-color);
-}
-
-@media print
-{
-	.shopgrid {
-		display               : grid;
-		grid-auto-flow        : column;
-		padding-bottom        : 20px;
-		grid-template-columns : 100%
-		grid-template-rows    : auto auto;
-		grid-template-areas   : "H"
-								"G";
-	}
-	
-	ul {
-		border-width : 0px;
-	}
-	p#price {
-		text-decoration-color : black;
-	}
-}
-
-@media only screen and (min-width: 1500px) and (max-width : 1573px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 25px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
-}
-}
-
-@media only screen and (min-width: 1407px) and (max-width : 1499px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 25px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
-}
-}
-
-@media only screen and (min-width: 1294px) and (max-width : 1406px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 25px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
-}
-}
-
-
-@media only screen and (min-width: 1000px) and (max-width : 1293px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 25px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
-}
-}
-
-@media only screen and (min-width: 801px) and (max-width : 999px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 25px;
-    grid-template-columns : 45% 5% 50%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "G . H"
-						    "G . H";
-}
-.G {
-	padding-top : 20px;
-}
-}
-
-@media only screen and (min-width: 601px) and (max-width : 800px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-	padding-bottom        : 10px;
-    grid-template-columns : 100%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "H"
-							"G";
-}
-}
-
-
-@media only screen and (max-width : 600px)
-{
-.shopgrid {
-    display               : grid;
-    grid-auto-flow        : column;
-    grid-template-columns : 100%;
-    grid-template-rows    : auto auto;
-    grid-template-areas   : "H"
-							"G";
-}
-	.spacer {
-		padding-bottom : 30px;
-	}
 }
 
 @media print
