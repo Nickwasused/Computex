@@ -129,12 +129,7 @@ p#big {
 .underlined {
 	text-decoration       : underline;
 	text-decoration-color : var(--main-color);
-	font-size             : 17px;
-}
-
-a#big {
-	font-weight : bold;
-	font-size   : 20px;
+	font-size             : 18px;
 }
 
 div#center {
@@ -158,9 +153,18 @@ a{
 	text-color : black;
 }
 
+a:visited {
+  color : gray;
+}
+
 a#embed {
 	text-decoration       : underline;
 	text-decoration-color : var(--main-color);
+}
+
+a#big {
+	font-weight : bold;
+	font-size   : 20px;
 }
 
 .A {
@@ -181,7 +185,7 @@ a#embed {
 
 .C {
   display         : flex;
-  display        : -webkit-flex;
+  display         : -webkit-flex;
   flex-direction  : column;
   justify-content : center;
   padding-left    : 5vw;

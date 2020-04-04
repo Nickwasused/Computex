@@ -122,22 +122,25 @@ div#___gcse_0 {
 		background-color : var(--maindark-color) !important;
 	}
 	h1 {
-		color : var(--secondarydark-color) !important;
+		color : white !important;
 	}
 	h2 {
-		color : var(--secondarydark-color) !important;
+		color : white !important;
 	}
 	h3 {
-		color : var(--secondarydark-color) !important;
+		color : white !important;
 	}
 	p {
-		color : var(--secondarydark-color) !important;
+		color : white !important;
 	}
 	.alert {
 		color : white !important;
 	}
 	a {
 		color : var(--main-color) !important;
+	}
+	a#embed:visited {
+		color : ligthgray !important;
 	}
 	.E {
 		background-color : var(--maindark-color) !important;
