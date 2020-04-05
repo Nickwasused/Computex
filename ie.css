@@ -5,10 +5,10 @@
 /* IE 10+ */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	::-moz-selection {
-		background : #821bdc !important;
+		background : #821bdc;
 	}
 	::selection {
-		background : #821bdc !important;
+		background : #821bdc;
 	}
 	
 	@media (prefers-color-scheme: dark) {
@@ -67,7 +67,7 @@
 		}
 	}
 	ul {
-	  border-color     : #821bdc !important;
+	  border-color : #821bdc !important;
 	}
 
 	h1 {
@@ -95,10 +95,10 @@
 /* Microsoft Edge 12 */
 @supports (-ms-accelerator:true) {
 	::-moz-selection {
-		background : #821bdc !important;
+		background : #821bdc;
 	}
 	::selection {
-		background : #821bdc !important;
+		background : #821bdc;
 	}
 	
 	@media (prefers-color-scheme: dark) {
@@ -157,7 +157,7 @@
 		}
 	}
 	ul {
-	  border-color     : #821bdc !important;
+	  border-color : #821bdc !important;
 	}
 
 	h1 {

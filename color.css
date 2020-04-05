@@ -1,14 +1,14 @@
 @charset "utf-8";
 
 .ligthtwitter {
-	display : contents !important;
+	display : contents;
 }
 .darktwitter {
-	display : none !important;
+	display : none;
 }
 
 .desktoponly {
-	visibility : hidden !important;
+	visibility : hidden;
 }
 
 .gsc-input {
@@ -26,90 +26,90 @@ div#___gcse_0 {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color      : white !important;
-  background : var(--selection-color) !important;
+  color      : white;
+  background : var(--selection-color);
 }
 
 ::selection {
-  color      : white !important;
-  background : var(--selection-color) !important;
+  color      : white;
+  background : var(--selection-color);
 }
 
 @media only screen and (min-width: 1081px)
 {
 	.desktoponly {
-		visibility : visible !important;
+		visibility : visible;
 	}
 	.C {
-		background : rgba(255, 255, 255, 0.5) !important;
+		background : rgba(255, 255, 255, 0.5);
 	}
 }
 
 @media only screen and (min-width: 1081px) and  (prefers-color-scheme: ligth)
 {
 	.desktoponly {
-		visibility : visible !important;
+		visibility : visible;
 	}
 	.C {
-		background : rgba(255, 255, 255, 0.5) !important;
+		background : rgba(255, 255, 255, 0.5);
 	}
 }
 
 @media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark)
 {
 	.desktoponly {
-		visibility : visible !important;
+		visibility : visible;
 	}
 	.C {
-		background : rgba(24, 24, 27, 0.7) !important;
+		background : rgba(24, 24, 27, 0.7);
 	}
 }
 
 @media only screen and (min-width: 1081px) and (prefers-reduced-motion: reduce)
 {
 	.desktoponly {
-		visibility : hidden !important;
+		visibility : hidden;
 	}
 	.C {
-		background-color : white !important;
+		background-color : white;
 	}
 }
 
 @media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)
 {
 	.desktoponly {
-		visibility : hidden !important;
+		visibility : hidden;
 	}
 	.C {
-		background-color : #18181b !important;
+		background-color : #18181b;
 	}
 }
 
 @media only screen and (min-width: 1081px) and  (prefers-color-scheme: ligth) and (prefers-reduced-motion: reduce)
 {
 	.desktoponly {
-		visibility : hidden !important;
+		visibility : hidden;
 	}
 	.C {
-		background-color : white !important;
+		background-color : white;
 	}
 }
 
 @media (prefers-color-scheme: no-preference) {
 	.ligthtwitter {
-		display : contents !important;
+		display : contents;
 	}
 	.darktwitter {
-		display : none !important;
+		display : none;
 	}
 }
 
 @media (prefers-color-scheme: ligth) {
 	.ligthtwitter {
-		display : contents !important;
+		display : contents;
 	}
 	.darktwitter {
-		display : none !important;
+		display : none;
 	}
 }
 
@@ -158,10 +158,10 @@ div#___gcse_0 {
 		background-color : var(--maindark-color) !important;
 	}
 	.ligthtwitter {
-		display : none !important;
+		display : none;
 	}
 	.darktwitter {
-		display : contents !important;
+		display : contents;
 	}
 	.gsc-control-cse {
 		background-color : var(--maindark-color) !important;
