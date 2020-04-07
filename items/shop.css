@@ -45,17 +45,21 @@ html {
 	display        : -webkit-flex;
     flex-direction : column;
 	border-width   : 10px;
+	width          : 40vw;
 	border-color   : black;
 }
 
 @media only screen and (max-width : 1350px)
 {
-.shopgrid {
-	flex-direction  : column;
-}
-.G {
-	width          : 90vw;
-}
+	.shopgrid {
+		flex-direction  : column;
+	}
+	.G {
+		width          : 90vw;
+	}
+	.H {
+		width          : 90vw;
+	}
 }
 
 img#main {
@@ -88,7 +92,7 @@ p#price {
 }
 
 @media (prefers-color-scheme: dark) {
-		html {
+	html {
 		background-color : var(--maindark-color); 
 		
 	}
