@@ -102,6 +102,9 @@ div#___gcse_0 {
 	.darktwitter {
 		display : none;
 	}
+	a {
+		color : var(--main-color) !important;
+	}
 }
 
 @media (prefers-color-scheme: ligth) {
@@ -110,6 +113,9 @@ div#___gcse_0 {
 	}
 	.darktwitter {
 		display : none;
+	}
+	h2 a {
+		color : var(--main-color) !important;
 	}
 }
 

@@ -65,7 +65,7 @@ ul#normal {
   padding-left    : 20px;
 }
 
-li {
+ul li {
   float : left;
 }
 
@@ -73,7 +73,7 @@ ul#normal li {
 	float : none !important;
 }
 
-li a {
+ul li a {
   display         : block;
   color           : black;
   text-align      : center;
@@ -81,18 +81,22 @@ li a {
   text-decoration : none;
 }
 
-li a#embed {
+ul li a#embed {
   display         : inline;
   text-align      : justify;
   padding         : 0px 0px !important;
 }
 
-li a:hover#embed {
+ul li a:hover#embed {
   background-color : white;
 }
 
-li a:hover {
+ul li a:hover {
   background-color : #a4a6ac;
+}
+
+ul li a:visited {
+	color : black;
 }
 
 h1 {
@@ -149,12 +153,12 @@ div#center {
 	justify-content : center;
 }
 
-a{
-	text-color : black;
+a {
+	color : var(--main-color);
 }
 
 a:visited {
-  color : gray;
+	color : gray;
 }
 
 a#embed {
