@@ -1,3 +1,6 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+/* see *prefixed* comments */
+
 @charset "utf-8";
 
 .ligthtwitter {
@@ -102,7 +105,7 @@ div#___gcse_0 {
 	.darktwitter {
 		display : none;
 	}
-	a {
+	h2 a {
 		color : var(--main-color) !important;
 	}
 }
@@ -242,10 +245,14 @@ div#___gcse_0 {
         color: $primary;
     }
 	h1 {
-		text-decoration-color : black !important;
+		-webkit-text-decoration-color : black !important; /*prefixed */
+		   -moz-text-decoration-color : black !important; /*prefixed */
+		        text-decoration-color : black !important;
 	}
 	h2#underlined {
-		text-decoration-color : black !important;
+		-webkit-text-decoration-color : black !important; /*prefixed */
+		   -moz-text-decoration-color : black !important; /*prefixed */
+		        text-decoration-color : black !important;
 	}
 	.gcse-search {
 		visibility : hidden !important;
@@ -253,5 +260,4 @@ div#___gcse_0 {
 	.hideprint {
 		visibility : hidden !important;
 	}
-}
 }
