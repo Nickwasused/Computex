@@ -39,7 +39,6 @@ if (isset($_POST['action']) && $_POST['action']=="change"){
 <html lang="de">
 	<head>
 		<title>Computex | Willkommen</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
     <style type="text/css">
         body{ font: 14px sans-serif; text-align: center; }
     </style>
@@ -80,10 +79,10 @@ if (isset($_POST['action']) && $_POST['action']=="change"){
 			<div class="A">
 				<ul>
 					<li><a href=".">Home</a></li>
-					<li><a href="shop.html">Shop</a></li>
-					<li><a href="geschichte.html">Firmengeschichte</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
-					<li><a href="wir.html">Unsere Firma</a></li>
+					<li><a href="shop.php">Shop</a></li>
+					<li><a href="geschichte.php">Firmengeschichte</a></li>
+					<li><a href="kontakt.php">Kontakt</a></li>
+					<li><a href="wir.php">Unsere Firma</a></li>
 					<li><script async src="https://cse.google.com/cse.js?cx=007807546472067433593:o191pdokv4o"></script><div class="gcse-search"></div></li>
 				</ul>
 			</div>

@@ -3,6 +3,7 @@
 
 @charset "utf-8";
 @import url("color.css");
+@import url("bootstrap.css");
 
 /* Support for IE: */
 @import url("ie.css");
