@@ -34,10 +34,10 @@
 		<div class="A">
 			<ul>
 				<li><a href="../.">Home</a></li>
-				<li><a href="../shop.html">Shop</a></li>
-				<li><a href="../geschichte.html">Firmengeschichte</a></li>
-				<li><a href="../kontakt.html">Kontakt</a></li>
-				<li><a href="../wir.html">Unser Unternehmen</a></li>
+				<li><a href="../shop.php">Shop</a></li>
+				<li><a href="../geschichte.php">Firmengeschichte</a></li>
+				<li><a href="../kontakt.php">Kontakt</a></li>
+				<li><a href="../wir.php">Unser Unternehmen</a></li>
 				<li><script async src="https://cse.google.com/cse.js?cx=007807546472067433593:o191pdokv4o"></script><div class="gcse-search"></div></li>
 			</ul>
 		</div>
@@ -49,10 +49,14 @@
 				<div class="J"><center><img id="small" src="img/cpu0/cpu0.png"></center></div>
 				<div class="K"><center><img id="small" src="img/cpu0/cpu0.png"></center></div>
 				<div class="H"></h2>
+				<form method='post' action=''>
+				<button type='submit' class='buy'>Jetzt kaufen</button>
+				<input type='hidden' name='code' value='id-important' />
+				</form>
 			</div>
 		</div>
 		<div class="D"></div>
-		<div class="E"><div id=center><a href="impressum.html" target="_blank">Impressum</a>   <a href="data.html" target="_blank">Privacy Policy</a>   <a href="terms.html" target="_blank">Terms of Service</a></div></div>
+		<div class="E"><div id=center><a href="impressum.php" target="_blank">Impressum</a>   <a href="data.php" target="_blank">Privacy Policy</a>   <a href="terms.php" target="_blank">Terms of Service</a></div></div>
 		</div> 
 	</body>
 </html>
