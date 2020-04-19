@@ -38,6 +38,26 @@ div#___gcse_0 {
   background : var(--selection-color);
 }
 
+.A {
+	background-color : white;
+}
+
+.B {
+	background-color : white;
+}
+
+.C {
+	background-color : white;
+}
+
+.D {
+	background-color : white;
+}
+
+.E {
+	background-color : white;
+}
+
 @media only screen and (min-width: 1081px)
 {
 	.desktoponly {
@@ -125,7 +145,9 @@ div#___gcse_0 {
 @media (prefers-color-scheme: dark) {
 	html {
 		background-color : var(--maindark-color) !important; 
-		
+	}
+	.grid {
+		background-color : var(--maindark-color) !important; 
 	}
 	ul {
 		background-color : var(--maindark-color) !important;
@@ -161,6 +183,22 @@ div#___gcse_0 {
 	a#embed:visited {
 		color : ligthgray !important;
 	}
+	.A {
+		background-color : var(--maindark-color) !important;
+	}
+
+	.B {
+		background-color : var(--maindark-color) !important;
+	}
+
+	.C {
+		background-color : var(--maindark-color) !important;
+	}
+
+	.D {
+		background-color : var(--maindark-color) !important;
+	}
+
 	.E {
 		background-color : var(--maindark-color) !important;
 	}
@@ -221,6 +259,9 @@ div#___gcse_0 {
 
 	.gsc-results-wrapper-overlay {
 		background : var(--maindark-color) !important;
+	}
+	.form-group label {
+		color : white;
 	}
 }
 

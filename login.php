@@ -143,10 +143,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Computex | Login</title>
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -166,7 +162,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Haben Sie noch keinen Account?<a href="register.php">Registrieren sie sich hier!</a>.</p>
+            <p>Haben Sie noch keinen Account? <a href="register.php">Registrieren sie sich hier!</a></p>
         </form>
     </div>    
 </body>
