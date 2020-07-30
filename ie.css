@@ -1,0 +1,75 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@charset "utf-8";
+
+/* IE Patch */
+/* Source: https://stackoverflow.com/questions/28417056/how-to-target-only-ie-any-version-within-a-stylesheet */
+/* IE 10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	::-moz-selection,
+    ::selection	{
+		background : #821bdc;
+	}
+
+	h1,
+    h2#underlined	{
+		-webkit-text-decoration-color : #821bdc; 
+		-moz-text-decoration-color    : #821bdc; 
+		text-decoration-color         : #821bdc;
+	}
+
+	@media (prefers-color-scheme: no-preference) {
+	h2 a {
+		color : #821bdc !important;
+	}
+	}
+
+	@media (prefers-color-scheme: ligth) {
+	h2 a {
+		color : #821bdc !important;
+	}
+	}
+
+	@media (prefers-color-scheme: dark) {
+	html,
+    ul	{
+		background-color : #18181b !important;
+	}
+	
+	h1,
+    h2,
+    h3	{
+		color : #B6B6B6 !important;
+	}
+	
+	.alert {
+		color : white !important;
+	}
+	
+	a {
+		color : #821bdc !important;
+	}
+	
+	li a:hover#embed,
+	.E {
+		background-color : #18181b !important;
+	}
+
+	.gsc-control-cse {
+		background-color : #18181b !important;
+		border-color     : #18181b !important;
+	}
+
+	table.gsc-search-box,
+	.gsc-tabHeader.gsc-tabhActiv,
+    .gsc-webResult.gsc-result,
+    .gsc-tabHeader.gsc-tabhInactive,
+    .gsc-results-wrapper-overlay	{
+		background-color : #18181b !important;
+	}
+
+	.E,
+	ul {
+		border-color : #821bdc !important;
+	}
+}

@@ -1,0 +1,231 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@charset "utf-8";
+
+.ligthtwitter {
+	display : contents;
+}
+.darktwitter {
+	display : none;
+}
+
+.desktoponly {
+	visibility : hidden;
+}
+
+.gsc-input {
+	height      : 15px !important;
+	font-family : 'Roboto-com', sans-serif !important;
+	padding-top : 0px !important;
+}
+
+.gsc-control-cse {
+	font-family : 'Roboto-com', sans-serif !important;
+	padding     : 0px !important;
+	padding-top : 6px !important;
+}
+
+div#___gcse_0 {
+	height : 10px !important;
+}
+
+::-moz-selection,
+::selection { 
+  color      : white;
+  background : var(--selection-color);
+}
+
+@media only screen and (min-width: 1081px)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background : rgba(255, 255, 255, 0.5);
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: ligth)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background : rgba(255, 255, 255, 0.5);
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark)
+{
+	.desktoponly {
+		visibility : visible;
+	}
+	.C {
+		background : rgba(24, 24, 27, 0.7);
+	}
+}
+
+@media only screen and (min-width: 1081px) and (prefers-reduced-motion: reduce)
+{
+	.desktoponly {
+		visibility : hidden;
+	}
+	.C {
+		background-color : white;
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)
+{
+	.desktoponly {
+		visibility : hidden;
+	}
+	.C {
+		background-color : #18181b;
+	}
+}
+
+@media only screen and (min-width: 1081px) and  (prefers-color-scheme: ligth) and (prefers-reduced-motion: reduce)
+{
+	.desktoponly {
+		visibility : hidden;
+	}
+	.C {
+		background-color : white;
+	}
+}
+
+@media (prefers-color-scheme: no-preference) {
+	.ligthtwitter {
+		display : contents;
+	}
+	.darktwitter {
+		display : none;
+	}
+	h2 a {
+		color : var(--main-color) !important;
+	}
+}
+
+@media (prefers-color-scheme: ligth) {
+	.ligthtwitter {
+		display : contents;
+	}
+	.darktwitter {
+		display : none;
+	}
+	h2 a {
+		color : var(--main-color) !important;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	html,
+	ul {
+		background-color : var(--maindark-color) !important; 
+		
+	}
+
+	h1,
+	h2,
+	h3,
+	p,
+	.alert {
+		color : white !important;
+	}
+
+	a {
+		color : var(--main-color) !important;
+	}
+	a#embed:visited {
+		color : ligthgray !important;
+	}
+	.E {
+		background-color : var(--maindark-color) !important;
+	}
+	li,
+	li a {
+		color : white !important;
+	}
+
+	li a:hover {
+		background-color : gray !important;
+	}
+	li a:hover#embed {
+		background-color : var(--maindark-color) !important;
+	}
+	
+	.ligthtwitter {
+		display : none;
+	}
+	
+	.darktwitter {
+		display : contents;
+	}
+	
+	.gsc-control-cse {
+		border-color     : var(--maindark-color) !important;
+	}
+
+	.gsc-control-cse,
+	.gsc-webResult.gsc-result,
+	.gsc-tabHeader.gsc-tabhInactive,
+	.gsc-results-wrapper-overlay,
+	table.gsc-search-box {
+		background-color : var(--maindark-color) !important;
+	}
+
+	.gsc-webResult.gsc-result {
+		border           : 1px solid #b21bdc !important;
+	}
+
+	.gs-webResult div.gs-visibleUrl, 
+	.gs-imageResult div.gs-visibleUrl,
+	.gs-webResult.gs-result a.gs-title:link,
+	.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType{
+		color : white !important;
+	}
+
+}
+
+
+@media print
+{
+	@page {
+		margin-top    : 2cm !important;
+		margin-bottom : 2cm !important;
+		margin-left   : 2cm !important;
+		margin-right  : 2cm !important;
+	}
+	p {
+		page-break-inside: avoid !important;
+	}
+	html {
+		background-color : white !important;
+		font-family      : "Arial", sans-serif !important;
+		font-size        : 12px !important;
+	}
+	ul {
+		border-width : 0px !important;
+	}
+	.A,
+	.E {
+		display : none !important;
+	}
+
+	a[href*='//']:after {
+        content:" (" attr(href) ") ";
+        color: $primary;
+    }
+	h1,
+    h2#underlined	{
+		-webkit-text-decoration-color : black !important; 
+		-moz-text-decoration-color    : black !important; 
+		text-decoration-color         : black !important;
+	}
+
+	.gcse-search,
+	.hideprint	{
+		visibility : hidden !important;
+	}
+}

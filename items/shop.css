@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+html {
+	font-family      : "Roboto-com", sans-serif;
+	font-size        : 16px;
+	text-justify     : justify;
+	line-height      : 20px;
+	background-color : #fff;
+}
+
+.shopgrid {
+	padding-bottom  : 20px;
+    display         : flex;
+	display         : -webkit-flex;
+	flex-direction  : row;
+	justify-content : center;
+}
+
+.G {
+	display        : flex;
+	display        : -webkit-flex;
+    flex-direction : column;
+	border-width   : 10px;
+	border-color   : black;
+	width          : 40vw;
+	padding-top    : 5px;
+}
+
+.H {
+	display        : flex;
+	display        : -webkit-flex;
+    flex-direction : column;
+	border-width   : 10px;
+	width          : 40vw;
+	border-color   : black;
+}
+
+@media only screen and (max-width : 1350px)
+{
+	.shopgrid {
+		flex-direction : column;
+	}
+	.G {
+		width : 90vw;
+	}
+	.H {
+		width : 90vw;
+	}
+}
+
+img#main {
+	width : 50%;
+}
+
+img#small {
+	width : 50%;
+}
+
+p#price {
+	font-size             : 30px;
+	text-decoration       : underline;
+	text-decoration-color : var(--main-color);
+}
+
+@media print
+{
+	html {
+		background-color : white;
+	}
+	ul {
+		border-color     : black;
+		background-color : white;
+	}
+	a[href*='//']:after {
+        content:" (" attr(href) ") ";
+        color: $primary;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background-color : var(--maindark-color); 
+		
+	}
+	ul {
+		background-color : var(--maindark-color);
+	}
+	li {
+		color : white;
+	}
+	h1 {
+		color : white;
+	}
+	h2 {
+		color : white;
+	}
+	p {
+		color : white;
+	}
+	.E {
+		background-color : var(--maindark-color);
+	}
+	li a {
+		color : white;
+	}
+	li a:hover {
+		background-color : gray;
+	}
+}
