@@ -59,6 +59,7 @@ ul {
 }
 
 ul#normal {
+	border-radius: 25px;
 	display         : block;
 	list-style-type : disc;
 	margin-top      : 1 em;
@@ -129,6 +130,10 @@ h2 {
 	line-height : 26px;
 }
 
+.C .text p,
+.C .text h1,
+.C .text h2,
+.C .text h3,
 .C p#n {
 	text-align : justify;
 }
