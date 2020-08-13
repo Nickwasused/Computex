@@ -247,6 +247,7 @@ a#big {
 .A,
 .E {
 	width                   : 100%;
+	background-color : #fff;
 }
 
 .B {
