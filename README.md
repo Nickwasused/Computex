@@ -1,7 +1,17 @@
 # Computex
 A Project
 
+# Project
 
+## Start in 2019
+
+## End in August 2020
+
+### Last State of Website
+[here](https://web.archive.org/web/20200819132501/https://computexnow.com/)
+
+### Last State of Twitter Account
+[here](https://web.archive.org/web/20200819132452/https://twitter.com/computexkontakt?lang=de)
 
 # Preview
 
